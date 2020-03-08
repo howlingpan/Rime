@@ -32,3 +32,4 @@ opencc
 emoji_suggestion.yaml
 pinyin_simp.dict.yaml
 wubi86.dict.yaml
+.DS_Store
