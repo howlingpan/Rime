@@ -11,11 +11,11 @@ patch:
     com.apple.Terminal:
       no_inline: true
     #com.apple.iWork.Numbers:
-      #no_inline: true
+    #no_inline: true
     com.alfredapp.Alfred:
       ascii_mode: true
     #com.runningwithcrayons.Alfred-2:
-      #ascii_mode: true
+    #ascii_mode: true
   style:
     #color_scheme: homepage
     #color_scheme: psionics
@@ -25,3 +25,4 @@ patch:
     #color_scheme: clean_white
     #color_scheme: native
     #color_scheme: starcraft
+  "switches/@0/reset": 1 #表示將 switcher 列表中的第一個元素（即 ascii_mode 開關）的初始值重設爲狀態1（即「英文」）。
