@@ -8,9 +8,12 @@ Session.vim
 
 ## Project ##
 
+### User config
+
 *.userdb
 *.bin
 luna_pinyin.custom.*.dict.yaml
+luna_pinyin.custom.dict.yaml
 luna_pinyin.custom.*.*.dict.yaml
 custom_phrase.txt
 
@@ -25,7 +28,6 @@ user.yaml
 build
 sync
 trash
-luna_pinyin.custom.dict.yaml
 *.schema.yaml
 stroke.dict.yaml
 opencc
@@ -33,3 +35,5 @@ emoji_suggestion.yaml
 pinyin_simp.dict.yaml
 wubi86.dict.yaml
 .DS_Store
+essay.origin.txt
+luna_pinyin.dict.yaml

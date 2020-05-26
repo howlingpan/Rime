@@ -47,12 +47,13 @@ Poetry Snapshot:
 
 ## Requirements
 
+
 - Linux
   - librime>=1.3
   - opencc>=1.0.2
 - macOS
-  - test in 0.9.27
-  - DO NOT install 0.9.20, it is a old deprecated version. You should build from source.
+  - works properly in 10.15.3 (19D76)
+  - DO NOT install 0.9.20, it is a old deprecated version. using `brew cask install squirrel` to install latest squirrel
 
 
 ## Structure
@@ -78,7 +79,7 @@ Poetry Snapshot:
      - https://pinyin.sogou.com/dict/detail/index/482
   - `luna_pinyin.jisuanjicihuidaquan.dict.yaml`：计算机词汇大全（搜狗）
      - https://pinyin.sogou.com/dict/detail/index/15117
-  - `luna_pinyin.wangluoliuxingxinci.dict.yaml`: 网络流行新词（搜狗，15k）
+  - `luna_pinyin.wangluoliuxingxinci.dict.yaml`: 网络流行新词（搜狗，15k，manual updated）
      - https://pinyin.sogou.com/dict/detail/index/4
   - `luna_pinyin.shanghaishichengshixinxijingxuan.dict.yaml` 上海市城市信息精选（搜狗）
      - https://pinyin.sogou.com/dict/detail/index/19430
@@ -88,6 +89,8 @@ Poetry Snapshot:
      - https://pinyin.sogou.com/dict/detail/index/15209
   - `luna_pinyin.zhongguolishicihuidaquan.dict.yaml` 中国历史词汇大全（搜狗）
      - https://pinyin.sogou.com/dict/detail/index/19430
+  - `luna_pinyin.kaifadashenzhuanyongciku.dict.yaml` 开发大神专用词库（搜狗，0.3k，manual updated）
+     - https://pinyin.sogou.com/dict/detail/index/75228
   - `luna_pinyin.emoji.cldr.dict.yaml`：Emoji parsed from [jolicode/emoji-search: Emoji synonyms to build your own emoji-capable search engine (elasticsearch, solr)](https://github.com/jolicode/emoji-search)（强烈推荐）
     - include emoji 7.0, eg. 🏎️ (sai che)
     - include emoji 8.0, eg. 🦄️ (du jiao shou)
