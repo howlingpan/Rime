@@ -118,7 +118,7 @@ patch:
   #     states: [漢字, 汉字]
   # simplifier:
   #   option_name: zh_simp # 和這裏（※2）
-  "switches/@0/reset": 1 #表示將 switcher 列表中的第一個元素（即 ascii_mode 開關）的初始值重設爲狀態1（即「英文」）。
+  # "switches/@0/reset": 1 #表示將 switcher 列表中的第一個元素（即 ascii_mode 開關）的初始值重設爲狀態1（即「英文」）。
   switches/+:
     - options: [gb2312+emoji, gbk+emoji, utf8] # https://github.com/rime/librime/pull/293
       states:
